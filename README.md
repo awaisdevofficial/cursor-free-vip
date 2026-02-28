@@ -85,6 +85,37 @@ python reset_machine_manual.py
 
 To stop the script, press `Ctrl+C`.
 
+### All Commands in Order (Windows)
+
+Here are all the commands in order:
+
+**1. Check config contents:**
+
+```powershell
+Get-Content "C:\Users\Mark Edward\Documents\.cursor-free-vip\config.ini"
+```
+
+**2. Fix the paths:**
+
+```powershell
+(Get-Content "C:\Users\Mark Edward\Documents\.cursor-free-vip\config.ini") -replace 'C:\\Users\\Mark Edward\\AppData\\Local\\Programs\\Cursor\\resources\\app', 'C:\Program Files\cursor\resources\app' | Set-Content "C:\Users\Mark Edward\Documents\.cursor-free-vip\config.ini"
+```
+
+**3. Verify the fix:**
+
+```powershell
+Get-Content "C:\Users\Mark Edward\Documents\.cursor-free-vip\config.ini"
+```
+
+**4. Run the script:**
+
+```powershell
+cd "C:\Users\Mark Edward\Desktop\cursor-free-vip-main"
+python main.py
+```
+
+Then select **1** to reset Machine ID.
+
 ## ❗ Notes
 
 ### Config File Location
