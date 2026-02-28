@@ -60,13 +60,13 @@ python main.py
 **Linux/macOS**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/muhammad-awais/cursor-free-vip/main/scripts/install.sh | bash
 ```
 
 **Windows (PowerShell)**
 
 ```powershell
-irm https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/muhammad-awais/cursor-free-vip/main/scripts/install.ps1 | iex
 ```
 
 ### Manual Reset Machine
